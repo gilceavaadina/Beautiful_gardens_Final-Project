@@ -8,7 +8,7 @@ This project is a website promoting garden services. It offers you different pos
 - [Technologies Used](#technologies-used)
 - [How to Run](#how-to-run)
 - [Dynamic content](#dynamic-content)
-- 
+  
 ## Introduction
 
 The website created is going to be a commercial website or service promotion. 
