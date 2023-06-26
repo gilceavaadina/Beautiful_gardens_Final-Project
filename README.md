@@ -6,7 +6,7 @@ This project is a website promoting garden services. It offers you different pos
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [How to Run](#how-to-run)
-- [Dynamic content](#dynamic-content)
+- [Dynamic Content](#dynamic-content)
   
 ## Introduction
 
@@ -17,9 +17,9 @@ It is about to attract you from the point of view of structure, styling and dyna
 
 I used the following technologies to create this project:
 
-- HTML
-- CSS
-- JS
+- HTML(Hypertext Markup Language) is the standard markup language used for creating web pages and applications. It provides a structured way to define the content and structure of a webpage by using various HTML tags.
+- CSS (Cascading Style Sheets) is a styling language used to define the presentation and appearance of HTML documents. It allows you to control the layout, colors, fonts, and other visual aspects of your web pages.
+- JS (JavaScript) is a high-level programming language commonly used in web development to add interactivity and dynamic behavior to web pages. It is a versatile language that runs on the client side (in the browser) as well as on the server side (with the help of Node.js).
 
 ## How to Run
 
@@ -27,7 +27,17 @@ To run the website created, you can follow these steps:
 
 1. Clone this repository using the following command:
 
-git clone 
+git clone https://github.com/gilceavaadina/Beautiful_gardens_Final-Project.git
 
 
 2. Open the index.html file in your web browser.
+
+## Dynamic Content
+This website is made with JS, because I wanted to add a little dynamism to my website. I introduced JS code which considers the following aspects: 
+1. TOGGLE-BUTTON
+2. POP-UP IMAGE GALLERY
+3. SUBSCRIBE BUTTON
+4. TESTIMONIAL ZONE
+5. GALLERY ZONE
+6. WEATHER API 
+
