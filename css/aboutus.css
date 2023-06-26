@@ -1,0 +1,319 @@
+body {
+    box-sizing: border-box;
+}
+
+.section-aboutus {
+    height: 400px;
+
+}
+
+.intro-aboutus {
+    height: 400px;
+
+}
+
+.photo-aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(26, 26, 26, 0),
+            rgba(189, 189, 189, 0.6)),
+        url(../assets/img/hands.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 30% 70%;
+
+}
+
+
+/* Make a web request to a WEATHER API */
+.weather-container {
+    height: 400px;
+    width: 100%;
+    border-radius: 40%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-location input {
+    width: 200px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+
+}
+
+.city {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.button-weather {
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 40px;
+    color: rgb(251, 251, 251);
+    background-color: #000;
+}
+
+.weather {
+    height: 300px;
+
+}
+
+.weather-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.weather-icon img {
+    margin: 20px;
+    height: 90px;
+    width: 90px;
+    padding-bottom: 10px;
+    ;
+}
+
+.col-weather p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.weather-icon h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.weather-icon sup {
+    font-size: 30px;
+
+}
+
+.col-weather img {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+
+.details-weather {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-icon h1,
+h2 {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.col-weather {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    ;
+    width: 400px;
+}
+
+.hum-wind {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0;
+}
+
+
+.card-section h2 {
+    background-color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.container-profiles {
+    min-height: 700px;
+    display: flex;
+    /* Responsive behaviour */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.card {
+    min-height: 500px;
+    position: relative;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin: 56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.socials {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+
+.socials button {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+.socials button:hover {
+    font-size: 20px;
+    ;
+}
+
+.socials button i {
+    color: #fff;
+    font-size: 1.4em;
+    margin: auto;
+}
+
+/* Social media colors */
+button.github {
+    background-color: #24292e;
+}
+
+button.twitter {
+    background-color: #1da1f2;
+}
+
+button.pinterest {
+    background-color: #d3263a;
+}
+
+.horizontal-line {
+    border: 1px solid #000;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* IMAGE SLIDER */
+.our-solution {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: auto;
+}
+
+.title-solution {
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.title-solution p {
+    color: rgb(255, 204, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row-solution {
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.list-solutions {
+    list-style-type: none;
+
+    text-align: justify;
+    margin: 40px;
+}
+
+.part-slider img {
+    height: auto;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 15%;
+    align-items: center;
+    border: 10px solid #fff;
+}
+
+@media (max-width:900px) {
+
+    .part-slider img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .row-solution {
+        flex-direction: column;
+    }
+
+    .horizontal-line {
+        width: 300px;
+    }
+}

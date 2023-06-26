@@ -1,0 +1,155 @@
+.arranjaments-container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(139, 139, 139, 0.3)), url(../assets/img/backyard.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.arranjaments-sections {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    background: transparent;
+}
+
+.arranjaments-container p {
+    font-size: 30px;
+    height: 100px;
+    text-align: center;
+}
+
+.arranjaments-container h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-weight: bold;
+}
+
+.card-flip {
+    min-height: 340px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    height: 100%;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    border: 5px solid #fff;
+}
+
+.front {
+    color: #fff;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+    text-align: center;
+    backface-visibility: hidden;
+}
+
+.pond {
+    background-image: url(../assets/img/lake.jpg);
+}
+
+.system {
+    background-image: url(../assets/img/system.jpg);
+}
+
+.grass {
+    background-image: url(../assets/img/grass.jpg);
+}
+
+.plants {
+    background-image: url(../assets/img/plants.jpg);
+}
+
+.back {
+    background: linear-gradient(#000000, #ceb110);
+    z-index: 1;
+    border-radius: 30px;
+    transform: rotateY(180deg);
+    border: 5px solid #fff;
+}
+
+.container:hover .card-flip {
+    transform: rotateY(180deg);
+}
+
+.container {
+    perspective: 1000px;
+    flex: 30%;
+    padding: 40px;
+}
+
+/* animate title */
+.container-flip {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.row-flip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-100deg,
+            #ffffff 0%,
+            #fbff00 29%,
+            #000000 67%,
+            #fbff00 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+   
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* UL  list inside the back-flip card */
+.ul-flip ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-flip li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}

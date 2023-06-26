@@ -1,0 +1,120 @@
+.content-arranjaments {
+    min-height: 400px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(1, 1, 1, 0.7)),
+        url(../assets/img/leaf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content-arranjaments h2 {
+    font-size: 40px;
+    padding: 40px;
+    color: #fff;
+    position: relative;
+    top:30px;
+    padding: 10px;
+}
+
+.content-arranjaments cite {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+}
+
+.wave {
+    position: relative;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    background-attachment: fixed;
+}
+
+.list-arranjaments {
+    margin-top: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.list-arranjaments h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.title-arranjaments {
+    font-family: 'Roboto Slab', serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    width: 70%;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.horizontal-line {
+    border: 1px solid #000;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ol-arranjaments {
+    margin: auto;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.ol-arranjaments li {
+    font-style: oblique;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.ol-arranjaments li {
+    min-height: 50px;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    border-radius: 20px;
+    background: rgb(255, 204, 0);
+}
+
+.ol-arranjaments li+li {
+    margin-top: 1rem;
+}
+
+.ol-arranjaments iframe {
+    margin-top: 40px;
+    width: 350px;
+    height: 200px;
+}
+
+::marker {
+    font-weight: 600;
+    color: tomato;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .title-arranjaments {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+
+    .content-arranjaments h2 {
+        font-size: 30px;
+    }
+
+    .content-arranjaments cite {
+        font-size: 30px;
+    }
+}
