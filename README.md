@@ -1,5 +1,4 @@
-## Beautiful_gardens_Final-Project
-
+## Beautiful_gardens
 This project is a website promoting garden services. It offers you different possibilities by which you can improve a project like this.
 
 ## Table of content
