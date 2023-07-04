@@ -7,6 +7,7 @@ This project is a website promoting garden services. It offers you different pos
 - [Technologies Used](#technologies-used)
 - [How to Run](#how-to-run)
 - [Dynamic Content](#dynamic-content)
+- [A Responsive Design](#a-responsive-design)
   
 ## Introduction
 
@@ -39,5 +40,8 @@ This website is made with JS, because I wanted to add a little dynamism to my we
 3. SUBSCRIBE BUTTON
 4. TESTIMONIAL ZONE
 5. GALLERY ZONE
-6. WEATHER API 
+6. WEATHER API
+## A responsive design
+1. CSS Media Queries
+2.Fluid Layouts :Flexbox and CSS Grid
 
