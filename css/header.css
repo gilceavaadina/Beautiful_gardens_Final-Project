@@ -111,7 +111,15 @@ body {
 .fa {
     margin-left: 4px;
 }
-
+/* Cart */
+.fa-cart-shopping {
+    color:#fff;
+    margin-right:15px;
+}
+.fa-cart-shopping:hover {
+    cursor:pointer;
+    color:rgb(255, 204, 0);
+}
 /* ------------------------------------------ FOOTER ------------------------------------------ */
 
 footer {
