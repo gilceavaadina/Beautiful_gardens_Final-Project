@@ -28,7 +28,7 @@ To run the website created, you can follow these steps:
 
 1. Clone this repository using the following command:
 
-git clone https://github.com/gilceavaadina/Beautiful_gardens_Final-Project.git
+git clone https://github.com/gilceavaadina/Project_FASTTRACKIT.git
 
 
 2. Open the index.html file in your web browser.
