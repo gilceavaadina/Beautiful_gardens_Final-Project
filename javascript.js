@@ -7,7 +7,8 @@ toggleButton.addEventListener('click', () => {
   
   navbarLinks.classList.toggle('active')
 })
-  //! POP-UP IMAGE GALLERY
+
+//! POP-UP IMAGE GALLERY
  document.querySelectorAll('.home-images img').forEach(image => {
   image.onclick=()=>{
     document.querySelector('.pop-up').style.display='block';
@@ -17,7 +18,8 @@ toggleButton.addEventListener('click', () => {
   document.querySelector('.pop-up span').onclick= () => {
     document.querySelector('.pop-up').style.display='none';
   }
-  //! SUBSCRIBE BTN
+
+//! SUBSCRIBE BTN
 const subscribeForm = document.getElementById("subscribe-form");
 const emailInput = document.getElementById("email-input");
 const successMessage = document.getElementById("success-message");
@@ -39,7 +41,7 @@ subscribeForm.addEventListener("submit", function(event) {
   emailInput.value = "";
 }); 
 
-// Testimonial home zone
+//! Testimonial home zone
 function showReview(event) {
   const userTexts = document.querySelectorAll(".user-text");
   const userPics = document.querySelectorAll(".user-pic");
@@ -57,7 +59,7 @@ Array.from(userPics).forEach((pic) => {
   pic.addEventListener("click", showReview);
 });
 
-//  Gallery zone
+//! Gallery zone
 function showPhotos() {
   document.getElementById('photo-gallery').classList.add('active');
   document.getElementById('photos-btn').classList.add('active');

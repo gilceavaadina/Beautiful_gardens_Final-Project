@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+
     //array of objects
     const product = [
       {
@@ -19,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const categories = [...new Set(product.map(item => item))];
+    console.log(categories);
+
     let i = 0;
 
     const container = document.getElementsByClassName('container-prices')[0];
@@ -75,10 +78,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         }
       }
+      
     });
     function updateCartItemCount() {
         const itemCount = cartItems.children.length;
+        //how many children are in the cart
         cartItemsIcon.textContent = itemCount;
+        //This line updates the text content of the cartItemsIcon element with the itemCount value. The textContent property sets or retrieves the text content of an element, and in this case, it displays the number of items in the cart.
       }
   });
 
