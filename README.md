@@ -41,6 +41,7 @@ This website is made with JS, because I wanted to add a little dynamism to my we
 4. TESTIMONIAL ZONE
 5. GALLERY ZONE
 6. WEATHER API
+7. CART
 ## A responsive design
 1. CSS Media Queries
 2.Fluid Layouts :Flexbox and CSS Grid
